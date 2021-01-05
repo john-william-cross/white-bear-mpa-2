@@ -14,8 +14,7 @@ function App() {
         <Route exact path="/review-empty" component={ReviewEmpty} />
         <Route exact path="/all-cards" component={AllCards} />
         <Route exact path="/edit" component={Edit} />
-        <Route component={NotFound} />{" "}
-        {/* if someone types a url that doesn't exist, this will display the not found page*/}
+        <Route component={NotFound} />
       </Switch>
     </Router>
   );
